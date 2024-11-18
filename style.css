@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #121212;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo h1 {
+  font-size: 2.5em;
+  color: #ff4d4d; /* Bright red for logo */
+  text-shadow: 2px 2px #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff4d4d;
+}
+
+/* Section Titles */
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #ff4d4d;
+}
+
+/* Home Section */
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #1a1a1a, #333);
+}
+
+.profilito-image {
+  max-width: 400px;
+  height: auto;
+  margin: 20px auto;
+  border: 5px solid #ff4d4d;
+  border-radius: 10px;
+}
+
+.intro p {
+  margin: 10px 0 20px;
+  color: #d9d9d9;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60000;
+}
+
+/* Portfolio Section */
+.portfolio-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item img {
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Shop Section */
+.shop-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.shop-item {
+  background: #1a1a1a;
+  padding: 20px;
+  border: 2px solid #ff4d4d;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.shop-item h3 {
+  color: #ff4d4d;
+}
+
+/* Order Section */
+.order form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.order form input,
+.order form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+}
+
+.order form button {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+}
